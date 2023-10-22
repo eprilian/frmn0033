@@ -1,0 +1,28 @@
+version: "3"
+services:
+  prometheus:
+    network_mode: "host"
+    image: docker.io/bitnami/prometheus:latest
+    volumes:
+      - ./data:/prometheus
+      - ./prometheus/prometheus.yml:/opt/bitnami/prometheus/conf/prometheus.yml
+    command:
+      - '--storage.tsdb.retention.time=1000d'
+      - '--storage.tsdb.retention=1000d'
+      - '--config.file=/opt/bitnami/prometheus/conf/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+    restart: always
+    ports:
+      - "9090:9090"
+    user: '0'
+    
+grafana:
+    image: grafana/grafana-oss
+    container_name: grafana
+    restart: unless-stopped
+    user: '0'
+    ports:
+      - '3000:3000'
+    volumes:
+      - './grafana_data:/var/lib/grafana'
+
