@@ -4,7 +4,7 @@ services:
     network_mode: "host"
     image: docker.io/bitnami/prometheus:latest
     volumes:
-      - ./data:/prometheus
+      - ./prometheus/data:/prometheus
       - ./prometheus/prometheus.yml:/opt/bitnami/prometheus/conf/prometheus.yml
     command:
       - '--storage.tsdb.retention.time=1000d'
@@ -16,7 +16,7 @@ services:
       - "9090:9090"
     user: '0'
     
-grafana:
+  grafana:
     image: grafana/grafana-oss
     container_name: grafana
     restart: unless-stopped
