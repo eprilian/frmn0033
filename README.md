@@ -1,6 +1,6 @@
 # monitoring system
 Monitoring virtual machine menggunakan Node Exporter, Prometheus dan Grafana
-![gambar](https://github.com/eprilian/frmn0033/assets/57064161/14c8404f-ad81-43c4-946a-342d9c738308)
+![image](https://github.com/eprilian/monitoring-system/assets/57064161/60d970f3-7eb4-426c-80ce-144c8d444268)
 
 Pada project ini saya menggunkana:
 - Ubuntu Server 22.04 LTS
@@ -8,6 +8,11 @@ Pada project ini saya menggunkana:
 - Node Exporter
 - Prometheus
 - Grafana
+
+![image](https://brandslogos.com/wp-content/uploads/images/large/ubuntu-logo.png)
+![image](https://banner2.cleanpng.com/20180604/hyj/kisspng-docker-yaml-github-repository-compos-5b14dcb9392900.5680028715280938812341.jpg)
+![image](https://miro.medium.com/v2/resize:fit:1360/1*JRuh8eeRVeg1QI9q4z4SRw.png)
+![image](https://www.clipartmax.com/png/middle/450-4503037_grafana-prometheus-grafana-logo.png)
 
 Tujuan dari final project ini adalah membuat sebuah sistem monitoring yang mampu untuk memonitoring kinerja sebuah virtual machine atau baremetal
 , mula dari kinerja hardware , untilitas network serta uptimenya.
