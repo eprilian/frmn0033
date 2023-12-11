@@ -17,6 +17,8 @@ Pada project ini saya menggunkana:
 Tujuan dari final project ini adalah membuat sebuah sistem monitoring yang mampu untuk memonitoring kinerja sebuah virtual machine atau baremetal
 , mula dari kinerja hardware , untilitas network serta uptimenya.
 
+# LANGKAH KONFIGURASI DOCKER PADA UBUNTU 22.04
+
 Pertama yang saya lakukan adalah menginstall Ubuntu 22.04 Server LTS, pada Software Virtualisasi seperti VirtualBox dan VMware Workstation. Setelah 
 Ubuntu terpasang, selanjutnya adalah melakukan update package dari repositori dengan perintah:
 # apt update && apt upgrade -y
@@ -30,3 +32,11 @@ Lakukan download dengan menggunakan curl, apabila belum terinstall maka install 
 
 Lalu jalankan script tadi dengan perintah berikut, dan tunggu proses installasi hingga selesai
 # sh ./get-docker.sh
+
+Setelah docker terinstall pada Ubuntu, selanjutnya adalah melakukan konfigurasi dari Node Exporter
+
+# LANGKAH KONFIGURASI NODE EXPORTER DI UBUNTU 22.04
+
+# LANGKAH KONFIGURASI PROMETHEUS DAN GRAFANA DASHBOARD PADA UBUNTU 22.04
+
+# SETUP DASHBOARD MONITORING
