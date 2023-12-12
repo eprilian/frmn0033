@@ -36,7 +36,11 @@ Lalu jalankan script tadi dengan perintah berikut, dan tunggu proses installasi 
 Setelah docker terinstall pada Ubuntu, selanjutnya adalah melakukan konfigurasi dari Node Exporter
 
 # LANGKAH KONFIGURASI NODE EXPORTER DI UBUNTU 22.04
+Untuk langkah langkah - langkah konfigurasi node exporter pada Ubuntu, dapat dilihat pada link berikut:
+https://docs.google.com/document/d/1Ly9XL__PGCQof6Hn-sBCnjCgMosF7i6bYmb070s2M8M/edit?usp=sharing
 
 # LANGKAH KONFIGURASI PROMETHEUS DAN GRAFANA DASHBOARD PADA UBUNTU 22.04
+Langkah dan konfigurasi Prometheus dan Grafana dapat dilihat pada link berikut:
+https://docs.google.com/document/d/1T_DAHmvpCBJMEBenIKXKmBj5r7wStknPOxubX0jpq80/edit?usp=sharing
 
 # SETUP DASHBOARD MONITORING
