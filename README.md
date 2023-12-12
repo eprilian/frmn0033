@@ -34,7 +34,7 @@ Lakukan download dengan menggunakan curl, apabila belum terinstall maka install 
 Lalu jalankan script tadi dengan perintah berikut, dan tunggu proses installasi hingga selesai
 - sh ./get-docker.sh
 
-Setelah docker terinstall pada Ubuntu, selanjutnya adalah melakukan konfigurasi dari Node Exporter
+Setelah docker terinstall pada Ubuntu, selanjutnya adalah melakukan konfigurasi Node Exporter, Prometheus serta Grafana
 
 # LANGKAH KONFIGURASI NODE EXPORTER DI UBUNTU 22.04
 Untuk langkah langkah - langkah konfigurasi node exporter pada Ubuntu, dapat dilihat pada link berikut:
