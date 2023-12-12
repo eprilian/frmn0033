@@ -21,17 +21,17 @@ Tujuan dari final project ini adalah membuat sebuah sistem monitoring yang mampu
 
 Pertama yang saya lakukan adalah menginstall Ubuntu 22.04 Server LTS, pada Software Virtualisasi seperti VirtualBox dan VMware Workstation. Setelah 
 Ubuntu terpasang, selanjutnya adalah melakukan update package dari repositori dengan perintah:
-# apt update && apt upgrade -y
+- apt update && apt upgrade -y
 
 Setelah proses update selesai, install Docker menggunakan scrip install berikut:
 https://get.docker.com/
 
 Lakukan download dengan menggunakan curl, apabila belum terinstall maka install dengan menggunakan perintah dan lanjutkan proses download script install dockernya
-# apt install curl 
-# curl -fsSL https://get.docker.com -o get-docker.sh
+- apt install curl 
+- curl -fsSL https://get.docker.com -o get-docker.sh
 
 Lalu jalankan script tadi dengan perintah berikut, dan tunggu proses installasi hingga selesai
-# sh ./get-docker.sh
+- sh ./get-docker.sh
 
 Setelah docker terinstall pada Ubuntu, selanjutnya adalah melakukan konfigurasi dari Node Exporter
 
