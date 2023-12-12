@@ -44,3 +44,10 @@ Langkah dan konfigurasi Prometheus dan Grafana dapat dilihat pada link berikut:
 https://docs.google.com/document/d/1T_DAHmvpCBJMEBenIKXKmBj5r7wStknPOxubX0jpq80/edit?usp=sharing
 
 # SETUP DASHBOARD MONITORING
+Untuk setup dashboard monitoring pada Grafana dapat di lihat pada link di bawah:
+https://docs.google.com/document/d/1vzMAUPl3qRoiqxyIZH4qPUl200Ti009Vsf5Yp7E55Ik/edit?usp=sharing
+
+# Konfigurasi Tunnel dengan Cloudflare Tunnel agar dapat di akses dari luar (opsional)
+Konfigigurasi ini bertujuan untuk membuat Grafana (Monitoring Dashboard) dapat diakses dari luar tanpa
+dengan menggunakan bantuan dari cloudflare tunnel. Konfigurasinya dapat dilihat pada link di bawah:
+
