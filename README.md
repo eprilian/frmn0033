@@ -1,4 +1,4 @@
-# monitoring system
+# MONITORING SERVICE (SAWANGAN)
 Monitoring virtual machine menggunakan Node Exporter, Prometheus dan Grafana
 ![image](https://github.com/eprilian/monitoring-system/assets/57064161/60d970f3-7eb4-426c-80ce-144c8d444268)
 
@@ -50,4 +50,4 @@ https://docs.google.com/document/d/1vzMAUPl3qRoiqxyIZH4qPUl200Ti009Vsf5Yp7E55Ik/
 # Konfigurasi Tunnel dengan Cloudflare Tunnel agar dapat di akses dari luar (opsional)
 Konfigigurasi ini bertujuan untuk membuat Grafana (Monitoring Dashboard) dapat diakses dari luar tanpa
 dengan menggunakan bantuan dari cloudflare tunnel. Konfigurasinya dapat dilihat pada link di bawah:
-
+https://docs.google.com/document/d/1L5xBk1A1VIlkqnVrzxJvPot600xB6k86ixTlhnV3PBg/edit?usp=sharing
