@@ -2,7 +2,8 @@
 Monitoring virtual machine menggunakan Node Exporter, Prometheus dan Grafana
 ![image](https://github.com/eprilian/monitoring-system/assets/57064161/60d970f3-7eb4-426c-80ce-144c8d444268)
 
-Pada project ini saya menggunkana:
+
+Pada project ini, yang saya gunakan adalah:
 - Ubuntu Server 22.04 LTS
 - Docker
 - Node Exporter
@@ -10,9 +11,9 @@ Pada project ini saya menggunkana:
 - Grafana
 
 ![image](https://brandslogos.com/wp-content/uploads/images/large/ubuntu-logo.png)
-![image](https://banner2.cleanpng.com/20180604/hyj/kisspng-docker-yaml-github-repository-compos-5b14dcb9392900.5680028715280938812341.jpg)
-![image](https://miro.medium.com/v2/resize:fit:1360/1*JRuh8eeRVeg1QI9q4z4SRw.png)
-![image](https://www.clipartmax.com/png/middle/450-4503037_grafana-prometheus-grafana-logo.png)
+![image](https://brandslogos.com/wp-content/uploads/images/large/docker-logo-1.png)
+![image](https://github.com/eprilian/monitoring-system/assets/57064161/14005cfd-6a9c-43e1-985d-c77e117609a0)
+![image](https://miro.medium.com/v2/resize:fit:1400/1*4M4OghuybPhjRsLxhrNsGA.png)
 
 Tujuan dari final project ini adalah membuat sebuah sistem monitoring yang mampu untuk memonitoring kinerja sebuah virtual machine atau baremetal
 , mula dari kinerja hardware , untilitas network serta uptimenya.
@@ -39,15 +40,18 @@ Setelah docker terinstall pada Ubuntu, selanjutnya adalah melakukan konfigurasi 
 Untuk langkah langkah - langkah konfigurasi node exporter pada Ubuntu, dapat dilihat pada link berikut:
 https://docs.google.com/document/d/1Ly9XL__PGCQof6Hn-sBCnjCgMosF7i6bYmb070s2M8M/edit?usp=sharing
 
+
 # LANGKAH KONFIGURASI PROMETHEUS DAN GRAFANA DASHBOARD PADA UBUNTU 22.04
 Langkah dan konfigurasi Prometheus dan Grafana dapat dilihat pada link berikut:
 https://docs.google.com/document/d/1T_DAHmvpCBJMEBenIKXKmBj5r7wStknPOxubX0jpq80/edit?usp=sharing
+
 
 # SETUP DASHBOARD MONITORING
 Untuk setup dashboard monitoring pada Grafana dapat di lihat pada link di bawah:
 https://docs.google.com/document/d/1vzMAUPl3qRoiqxyIZH4qPUl200Ti009Vsf5Yp7E55Ik/edit?usp=sharing
 
+
 # Konfigurasi Tunnel dengan Cloudflare Tunnel agar dapat di akses dari luar (opsional)
-Konfigigurasi ini bertujuan untuk membuat Grafana (Monitoring Dashboard) dapat diakses dari luar tanpa
-dengan menggunakan bantuan dari cloudflare tunnel. Konfigurasinya dapat dilihat pada link di bawah:
+Konfigurasi ini bertujuan untuk membuat Grafana (Monitoring Dashboard) dapat diakses dari luar dengan 
+menggunakan bantuan dari cloudflare tunnel. Konfigurasinya dapat dilihat pada link di bawah:
 https://docs.google.com/document/d/1L5xBk1A1VIlkqnVrzxJvPot600xB6k86ixTlhnV3PBg/edit?usp=sharing
