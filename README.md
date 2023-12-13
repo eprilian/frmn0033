@@ -5,6 +5,7 @@ Monitoring virtual machine menggunakan Node Exporter, Prometheus dan Grafana
 
 Pada project ini, yang saya gunakan adalah:
 - Ubuntu Server 22.04 LTS
+- SSH Server
 - Docker
 - Node Exporter
 - Prometheus
@@ -55,3 +56,18 @@ https://docs.google.com/document/d/1vzMAUPl3qRoiqxyIZH4qPUl200Ti009Vsf5Yp7E55Ik/
 Konfigurasi ini bertujuan untuk membuat Grafana (Monitoring Dashboard) dapat diakses dari luar dengan 
 menggunakan bantuan dari cloudflare tunnel. Konfigurasinya dapat dilihat pada link di bawah:
 https://docs.google.com/document/d/1L5xBk1A1VIlkqnVrzxJvPot600xB6k86ixTlhnV3PBg/edit?usp=sharing
+
+# Install Cockpit Web UI Control Panel (opsional)
+Cockpit digunakan untuk mempermudah dalam melakukan management vm kita lewat web browser. Dengan Cockpit,
+kita dapat manage vm dengan lebih mudah. Untuk lebih detail, dapat mengakses link dari Cockpit Project di
+https://cockpit-project.org/
+
+Install Cockpit pada Ubuntu
+- apt update
+- apt install cockpit
+- systemctl enable cockpit
+- systemctl start cockpit
+
+Setelah proses install selesai dan tidak ada error, dapat dicoba dengan akses <ip-server>:9090
+Berikut adalah contoh dahboard login dari cockpit yang telah saya tunnel dengan CLoudflare
+![image](https://github.com/eprilian/monitoring-system/assets/57064161/f6428272-d072-4a90-b249-65ef315ca536)
